@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.dark {
+    --color-bg: #222831;
+    --color-font: #eeeeee;
+    --color-acent: #ff971d;
+    --color-btn: #393e46;
+}
+
+html {
+    background-color: var(--color-bg);
+    color: var(--color-font);
+}
+
+@theme {
+    --color-bg: #f9f6f7;
+    --color-font: #707070;
+    --color-acent: #ff971d;
+    --color-btn: #ffffff;
+}
