@@ -5,7 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/Weather-App/",
+  build: { outDir: "docs" },
   plugins: [
     tailwindcss(),
     react(),
